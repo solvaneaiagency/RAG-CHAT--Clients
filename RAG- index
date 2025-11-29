@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asistente Inteligente</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #f5f6f9;
+      font-family: system-ui, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 28px;
+      color: #222;
+      margin-bottom: 22px;
+      font-weight: 600;
+    }
+
+    .chat-frame {
+      width: 100%;
+      height: 80vh;
+      border: none;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.09);
+      background: white;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Asistente Inteligente</div>
+
+    <iframe 
+      class="chat-frame"
+      src="TU_URL_PUBLICA_DEL_CHAT"
+      allow="clipboard-write; clipboard-read">
+    </iframe>
+  </div>
+</body>
+</html>
